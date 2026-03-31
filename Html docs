@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Roehampton Sustainable Futures Hub | People • Planet • Partnership</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Roboto+Slab:wght@500;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo">
+      <div class="logo-mark">R</div>
+      <div class="logo-text">
+        <span class="logo-title">Roehampton Sustainable Futures Hub</span>
+        <span class="logo-tagline">People • Planet • Partnership</span>
+      </div>
+    </div>
+
+    <nav class="main-nav">
+      <a href="#hero">Home</a>
+      <a href="#about">About</a>
+      <a href="#programmes">Programmes</a>
+      <a href="#partners">Partners</a>
+      <a href="#impact">Impact</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">☰</button>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="hero" class="hero">
+      <div class="hero-content">
+        <h1>Applied research and partnerships for a net‑zero, thriving London.</h1>
+        <p>
+          The Roehampton Sustainable Futures Hub connects local SMEs, NGOs and the University of Roehampton
+          to co‑design evidence‑led solutions for climate resilience and social wellbeing.
+        </p>
+        <div class="hero-actions">
+          <a href="#programmes" class="btn primary">Explore programmes</a>
+          <a href="#contact" class="btn secondary">Partner with us</a>
+        </div>
+        <div class="hero-tags">
+          <span>Applied research</span>
+          <span>Community partnerships</span>
+          <span>Net‑zero innovation</span>
+        </div>
+      </div>
+      <div class="hero-media">
+        <div class="hero-panel">
+          <h2>People • Planet • Partnership</h2>
+          <p>
+            We translate research into practical frameworks, tools and training that empower communities
+            to lead the transition to a fair, green economy.
+          </p>
+          <ul>
+            <li>Evidence‑led action</li>
+            <li>Capacity‑building for SMEs & NGOs</li>
+            <li>Knowledge exchange with Roehampton</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="about">
+      <div class="section-heading">
+        <h2>Mission, vision and values</h2>
+        <p>
+          We exist to empower community partners to deliver impactful sustainability projects through applied research,
+          capacity‑building and knowledge exchange with the University of Roehampton.
+        </p>
+      </div>
+
+      <div class="about-grid">
+        <article class="about-card">
+          <h3>Mission</h3>
+          <p>
+            Empower community partners to deliver impactful sustainability projects through applied research,
+            capacity‑building and knowledge exchange with the University of Roehampton.
+          </p>
+        </article>
+
+        <article class="about-card">
+          <h3>Vision</h3>
+          <p>
+            Resilient, inclusive communities across London where local SMEs, NGOs and universities collaborate
+            to achieve net‑zero and social wellbeing.
+          </p>
+        </article>
+
+        <article class="about-card">
+          <h3>Values</h3>
+          <ul>
+            <li>Collaboration</li>
+            <li>Evidence‑led action</li>
+            <li>Community empowerment</li>
+            <li>Transparency</li>
+            <li>Inclusivity</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- PROGRAMMES -->
+    <section id="programmes" class="programmes">
+      <div class="section-heading">
+        <h2>Programmes and pathways</h2>
+        <p>Structured, evidence‑backed support for partners across London’s sustainability ecosystem.</p>
+      </div>
+
+      <div class="programme-tabs">
+        <button class="tab-button active" data-target="research">Applied research</button>
+        <button class="tab-button" data-target="capacity">Capacity‑building</button>
+        <button class="tab-button" data-target="exchange">Knowledge exchange</button>
+      </div>
+
+      <div class="programme-panels">
+        <div class="programme-panel active" id="research">
+          <div class="programme-grid">
+            <article class="programme-card">
+              <h3>Impact‑focused research projects</h3>
+              <p>
+                Co‑designed research with SMEs, NGOs and local authorities to address real sustainability challenges.
+              </p>
+              <ul>
+                <li>Problem scoping and evidence reviews</li>
+                <li>Mixed‑methods research design</li>
+                <li>Actionable recommendations and toolkits</li>
+              </ul>
+            </article>
+
+            <article class="programme-card">
+              <h3>Evaluation and impact measurement</h3>
+              <p>
+                Robust frameworks to track outcomes, social value and environmental impact for funders and partners.
+              </p>
+              <ul>
+                <li>Theory of change development</li>
+                <li>Indicators and data collection plans</li>
+                <li>Accessible reporting and dashboards</li>
+              </ul>
+            </article>
+
+            <article class="programme-card">
+              <h3>Policy and practice briefs</h3>
+              <p>
+                Translating research into concise, decision‑ready insights for practitioners and policymakers.
+              </p>
+              <ul>
+                <li>Evidence syntheses</li>
+                <li>Practice notes and guidance</li>
+                <li>Briefings for boards and funders</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+
+        <div class="programme-panel" id="capacity">
+          <div class="programme-grid">
+            <article class="programme-card">
+              <h3>SME sustainability labs</h3>
+              <p>
+                Practical labs supporting SMEs to design, test and scale low‑carbon and socially just business models.
+              </p>
+              <ul>
+                <li>Diagnostics and roadmapping</li>
+                <li>Peer learning cohorts</li>
+                <li>Implementation support</li>
+              </ul>
+            </article>
+
+            <article class="programme-card">
+              <h3>NGO and community training</h3>
+              <p>
+                Capacity‑building for community organisations delivering climate, wellbeing and inclusion projects.
+              </p>
+              <ul>
+                <li>Monitoring and evaluation skills</li>
+                <li>Storytelling with data</li>
+                <li>Funding and partnership readiness</li>
+              </ul>
+            </article>
+
+            <article class="programme-card">
+              <h3>Leadership for net‑zero</h3>
+              <p>
+                Workshops for leaders to align strategy, governance and operations with net‑zero and social impact goals.
+              </p>
+              <ul>
+                <li>Board and senior team sessions</li>
+                <li>Risk and opportunity mapping</li>
+                <li>Action plans with clear milestones</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+
+        <div class="programme-panel" id="exchange">
+          <div class="programme-grid">
+            <article class="programme-card">
+              <h3>Knowledge exchange partnerships</h3>
+              <p>
+                Long‑term collaborations between Roehampton academics and community partners on shared priorities.
+              </p>
+              <ul>
+                <li>Co‑created workplans</li>
+                <li>Student projects and placements</li>
+                <li>Shared learning events</li>
+              </ul>
+            </article>
+
+            <article class="programme-card">
+              <h3>Learning networks</h3>
+              <p>
+                Thematic networks connecting practitioners, researchers and policymakers across London.
+              </p>
+              <ul>
+                <li>Regular roundtables</li>
+                <li>Practice exchanges</li>
+                <li>Resource libraries</li>
+              </ul>
+            </article>
+
+            <article class="programme-card">
+              <h3>Showcase and dissemination</h3>
+              <p>
+                Platforms to share outcomes, tools and stories from collaborative projects.
+              </p>
+              <ul>
+                <li>Public events and webinars</li>
+                <li>Case study series</li>
+                <li>Digital knowledge hub</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PARTNERS -->
+    <section id="partners" class="partners">
+      <div class="section-heading">
+        <h2>Partners in the ecosystem</h2>
+        <p>
+          We work alongside local authorities, SMEs, NGOs, funders and university teams to deliver joined‑up impact.
+        </p>
+      </div>
+
+      <div class="partners-grid">
+        <article class="partner-card">
+          <h3>Local authorities</h3>
+          <p>Co‑designing place‑based interventions that align with borough climate and wellbeing strategies.</p>
+        </article>
+        <article class="partner-card">
+          <h3>SMEs and social enterprises</h3>
+          <p>Supporting innovation, resilience and low‑carbon growth for local businesses.</p>
+        </article>
+        <article class="partner-card">
+          <h3>NGOs and community groups</h3>
+          <p>Building capacity to deliver inclusive, community‑led sustainability projects.</p>
+        </article>
+        <article class="partner-card">
+          <h3>University of Roehampton</h3>
+          <p>Connecting academic expertise, students and facilities with real‑world challenges.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- IMPACT -->
+    <section id="impact" class="impact">
+      <div class="section-heading">
+        <h2>Measuring what matters</h2>
+        <p>We track outcomes across skills, resilience, emissions and social value.</p>
+      </div>
+
+      <div class="impact-grid">
+        <div class="impact-card">
+          <span class="impact-number" data-count="45">0</span>
+          <p>collaborative projects supported</p>
+        </div>
+        <div class="impact-card">
+          <span class="impact-number" data-count="80">0</span>
+          <p>SMEs and NGOs engaged</p>
+        </div>
+        <div class="impact-card">
+          <span class="impact-number" data-count="300">0</span>
+          <p>practitioners upskilled</p>
+        </div>
+        <div class="impact-card">
+          <span class="impact-number" data-count="2030">0</span>
+          <p>working towards London’s net‑zero goals</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+      <div class="section-heading">
+        <h2>Start a conversation</h2>
+        <p>Share a project idea, partnership opportunity or research question.</p>
+      </div>
+
+      <div class="contact-grid">
+        <form class="contact-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input id="name" type="text" placeholder="Your full name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input id="email" type="email" placeholder="you@example.com" required />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="organisation">Organisation</label>
+              <input id="organisation" type="text" placeholder="Organisation or affiliation" />
+            </div>
+            <div class="form-group">
+              <label for="role">I am</label>
+              <select id="role">
+                <option value="sme">An SME or social enterprise</option>
+                <option value="ngo">An NGO or community group</option>
+                <option value="la">A local authority</option>
+                <option value="academic">An academic or student</option>
+                <option value="funder">A funder</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="interest">Area of interest</label>
+            <select id="interest">
+              <option value="research">Applied research</option>
+              <option value="capacity">Capacity‑building</option>
+              <option value="exchange">Knowledge exchange</option>
+              <option value="evaluation">Evaluation and impact</option>
+              <option value="other">Other / not sure yet</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="4" placeholder="Tell us a bit about your context and what you’re exploring"></textarea>
+          </div>
+
+          <button type="submit" class="btn primary">Submit enquiry</button>
+          <p class="form-note" id="formNote"></p>
+        </form>
+
+        <div class="contact-info">
+          <h3>Roehampton Sustainable Futures Hub</h3>
+          <p>
+            Based at the University of Roehampton, we work across London with partners committed to
+            fair, evidence‑led climate action.
+          </p>
+          <p>
+            <strong>Location:</strong> London, United Kingdom<br />
+            <strong>Email:</strong> futureshub@roehampton.ac.uk
+          </p>
+          <p class="small">
+            Our work is grounded in collaboration, transparency and inclusivity, with a focus on measurable impact for
+            communities and the planet.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Roehampton Sustainable Futures Hub. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
